@@ -8,9 +8,11 @@ namespace ConsoleApp2
 {
     public class Teste
     {
-        public Teste()
-        {
+        public int Idade { get; private set; }
 
+        public Teste(int idade)
+        {
+            Idade = idade;
         }
     }
 }
